@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div>
+    {{ title }}
+    <form   role ="search"  action= "/vote/searchcounty/">
+    <div class = "form-group">
+        <input type = "text" placeholder = "search" name = "countyname" class = "form-control">
+
+
+    </div>
+    <button type="submit" class = "btn btn-default">Search</button>
+
+    </form>
+</div>
+
+
+
+{% endblock content %}
